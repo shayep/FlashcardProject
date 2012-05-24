@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:gravity="right"
+    android:orientation="vertical" >
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/prevButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Previous" />
+
+
+        <Button
+            android:id="@+id/nextButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:text="Next" />
+
+
+        <Button
+            android:id="@+id/flipButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Flip" />
+
+    </FrameLayout>
+    
+    <ImageView
+        android:id="@+id/cardImageView"
+        android:layout_width="300dp"
+        android:layout_height="321dp"
+        android:layout_gravity="center"
+        android:src="@drawable/ic_launcher" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <Button
+            android:id="@+id/precalcButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Algebra II" />
+
+        <Button
+            android:id="@+id/xButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="X" />
+        
+        <Button
+            android:id="@+id/alg2Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:text="Pre-Calculus" />
+
+
+    </FrameLayout>
+
+</LinearLayout>
